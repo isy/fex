@@ -2,7 +2,7 @@ import NuxtConfiguration from '@nuxt/config';
 
 const nuxtConfig: NuxtConfiguration = {
   mode: 'universal',
-  srcDir: '.',
+  srcDir: './',
   env: {},
   head: {
     title: 'fex',

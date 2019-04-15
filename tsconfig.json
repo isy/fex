@@ -16,8 +16,8 @@
     "resolveJsonModule": true,
     "paths": {
       "~/*": ["./*"],
-      "@/*": ["./src/*"]
+      "@/*": ["./*"]
     },
-    "types": ["@nuxt/vue-app", "@types/node", "@types/webpack-env"]
+    "types": ["@nuxt/vue-app", "@types/node", "@types/webpack-env", "jest"]
   }
 }
