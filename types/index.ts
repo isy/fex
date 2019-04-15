@@ -2,11 +2,11 @@ export * from './state';
 
 export interface Person {
   id: number;
-  first_name: string;
-  last_name: string;
+  firstName: string;
+  lastName: string;
   contact: Contact;
   gender: string;
-  ip_address: string;
+  ipAddress: string;
   avatar: string;
   address: Address;
 }
